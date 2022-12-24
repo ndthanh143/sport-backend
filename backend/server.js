@@ -1,5 +1,5 @@
-const app = require("./backend/app");
-const connectDatabase = require("./backend/config/database");
+const app = require("./app");
+const connectDatabase = require("./config/database");
 const dotenv = require("dotenv");
 
 // Handle Uncaught exceptions
